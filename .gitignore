@@ -12,19 +12,7 @@ dist
 dist-ssr
 *.local
 
-src/components/ConsignmentShippingSearch.tsx
-src/components/Origin1 copy.tsx
-src/components/RecentlyAddedConsigments.tsx
-src/components/ShipmentIcon.tsx
-src/components/ShipmentOrigin2.tsx
-src/components/ShipmentOriginFlag.tsx
-src/components/Sidebar.tsx
-src/components/SidebarMenu.tsx
-src/components/WelcomeUserBanner.tsx
 
-src/pages/Dashboard
-src/pages/Login
-src/pages/Register
 
 # Editor directories and files
 .vscode/*
