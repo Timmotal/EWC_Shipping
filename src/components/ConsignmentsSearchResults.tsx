@@ -85,14 +85,14 @@ const ConsignmentsSearchResults = () => {
               country: {
               name: 'Korea',
               city: 'Seoul',
-              flag: '/FlagOfKorea.svg',
+              flag: '/FlagOfKorea.png'
               }
             },
             destination: {
               country: {
                 name: 'China',
                 city: 'Shenzhen',
-                flag: '/FlagOfChina.png'
+                flag: '/FlagOfChina.svg',
               },
             },
     

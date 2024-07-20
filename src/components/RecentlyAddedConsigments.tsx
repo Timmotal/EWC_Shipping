@@ -83,7 +83,7 @@ const RecentlyAddedConsigments = () => {
 
   return (
     <div
-      className={`self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg bg-white-base-ffffff box-border flex flex-col items-start justify-start pt-[31px] px-[31px] pb-[19px] gap-[20px] max-w-full text-left text-xl text-black font-h4-desktop-tablet-regular border-[0.5px] border-solid border-color-border-gray-subtle-300 `}
+      className={`self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg mb-20 box-border flex flex-col items-start justify-start pt-[31px] px-[31px] pb-[19px] gap-[20px] max-w-full text-left text-xl text-black  border-[0.5px] border-solid  `}
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px] max-w-full text-13xl">
         <div className="self-stretch flex flex-row items-start justify-end max-w-full">

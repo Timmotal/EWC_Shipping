@@ -6,7 +6,7 @@ import RecentlyAddedConsigments from '../../components/RecentlyAddedConsigments'
 
 const Dashboard = () => {
   return (
-    <div className="w-full h-[1024px] relative overflow-hidden leading-[normal] tracking-[normal]">
+    <div className="w-full h-[1224px] relative overflow-hidden leading-[normal] tracking-[normal]">
     {/* <img
       className="absolute top-[calc(50%_-_330px)] left-[calc(50%_-_111px)] w-[1589.7px] h-[1625.7px] overflow-hidden"
       alt=""

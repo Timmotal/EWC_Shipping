@@ -8,7 +8,7 @@ import ConsignmentsSearchResults from '../../../components/ConsignmentsSearchRes
 
 const CosignmentSearchPage = () => {
   return (
-    <div className="w-full h-[1224px] relative  overflow-hidden ">
+    <div className="w-full h-[1624px] relative  overflow-hidden ">
       
       <div className="absolute flex items-end justify-end bottom-0 right-0  z-[-40]">
     <img className="" src="BackgroundImg.svg" alt="East West Background Image" />
