@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ShipmentOriginFlag from "./ShipmentOriginFlag";
 // import ShipmentSecondaryDetails from "../ShipmentSecondaryDetails";
 import ConsignmentsFound_ShipmentPrimaryDetails from "./consigmentsFound/ConsignmentFound_ShipmentPrimaryDetails";
