@@ -1,7 +1,15 @@
 
+// Define an interface for the props
+interface DependencyFileProps {
+  company: string;
+  name: string;
+  docType: string;
+  email: string;
+  phone: number;
+}
 
 
-const DependencyFile= ({ company, name, docType, email, phone  }) => {
+const DependencyFile= ({ company, name, docType, email, phone  }: DependencyFileProps) => {
 
   return (
     <div className="self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg bg-white-base-ffffff overflow-hidden flex flex-row items-center justify-start p-[0.5rem] gap-[2.562rem] border-[1px] border-solid border-gray-200-e4e7ec">

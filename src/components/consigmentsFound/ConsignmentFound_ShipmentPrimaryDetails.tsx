@@ -4,6 +4,19 @@ import { NavLink } from 'react-router-dom';
 // import { useState } from 'react';
 
 // type Props = {}
+interface ConsignmentsFound_ShipmentPrimaryDetailsProps {
+  id: string;
+  route: string;
+  originCountry: string;
+  originCity: string;
+  originCountryFlag: string;
+  destinationCountry: string;
+  destinationCity: string;
+  destinationCountryFlag: string;
+  role: string;
+  createdBy: string;
+  departureDate: string;
+}
 
 
 const ConsignmentsFound_ShipmentPrimaryDetails = (
@@ -19,7 +32,7 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
     role,
     createdBy,
     departureDate,
-}
+}: ConsignmentsFound_ShipmentPrimaryDetailsProps
 ) => {
 
     

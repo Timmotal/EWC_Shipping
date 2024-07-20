@@ -2,7 +2,20 @@
 import ShipmentOriginFlag from './ShipmentOriginFlag'
 import ShipmentSecondaryDetails from './ShipmentSecondaryDetails'
 
-// type Props = {}
+interface ShipmentPrimaryDetailsProps {
+  id: string;
+  route: string;
+  originCountry: string;
+  originCity: string;
+  originCountryFlag: string;
+  destinationCountry: string;
+  destinationCity: string;
+  destinationCountryFlag: string;
+  role: string;
+  createdBy: string;
+  departureDate: string;
+}
+
 
 
 const ShipmentPrimaryDetails = (
@@ -18,7 +31,7 @@ const ShipmentPrimaryDetails = (
     role,
     createdBy,
     departureDate,
-}
+}: ShipmentPrimaryDetailsProps
 ) => {
 
     
@@ -44,6 +57,7 @@ const ShipmentPrimaryDetails = (
         </b>
         <div className=" flex flex-row flex-wrap bg-re items-center justify-start gap-[16px] max-w-full text-5xl">
           <ShipmentOriginFlag
+            // id={id}
             key={id}
             transportType={"Origin"}
             country={originCountry}

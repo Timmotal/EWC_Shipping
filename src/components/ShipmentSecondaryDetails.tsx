@@ -1,5 +1,14 @@
 // const Pin = ({ pin: {postedBy, image, _id, destination, save }}) => {
-const ShipmentSecondaryDetails = ({id, role, createdBy, route, departureDate}) => {
+interface ShipmentSecondaryDetailsProps {
+  id: string,
+  role : string;
+  createdBy: string;
+  route: string;
+  departureDate: string;
+}
+
+
+const ShipmentSecondaryDetails = ({id, role, createdBy, route, departureDate}: ShipmentSecondaryDetailsProps) => {
 
 
   // key={shipment.id} 
