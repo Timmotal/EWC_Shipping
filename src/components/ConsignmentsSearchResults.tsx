@@ -27,7 +27,7 @@ const ConsignmentsSearchResults = () => {
         },
 
         role: 'Freight Forwarder',
-        createdBy: 'MSC',
+        createdBy: 'TZT Forwarding',
 
         departureDate: '9 October, 2024'
       },
@@ -50,7 +50,7 @@ const ConsignmentsSearchResults = () => {
         },
 
           role: 'Freight Forwarder',
-          createdBy: 'MSC',
+          createdBy: 'TZT Forwarding',
 
           departureDate: '9 March, 2023'
 
@@ -74,7 +74,7 @@ const ConsignmentsSearchResults = () => {
           },
   
           role: 'Freight Forwarder',
-          createdBy: 'MSC',
+          createdBy: 'TZT Forwarding',
   
           departureDate: '10 April, 2023'
         },
@@ -97,7 +97,7 @@ const ConsignmentsSearchResults = () => {
             },
     
             role: 'Freight Forwarder',
-            createdBy: 'MSC',
+            createdBy: 'TZT Forwarding',
     
             departureDate: '11 September, 2022'
           },
