@@ -8,13 +8,13 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 1,
       docType: "Packing List",
-      docVersion: 3,
+      docVersion: 2,
       docOrg: " Chem Corp"
     },
     {
       id: 2,
       docType: "Customs Transit Document (T1)",
-      docVersion: 3,
+      docVersion: 2,
       docOrg: "TZT Forwarding "
     },
     {
@@ -26,7 +26,7 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 4,
       docType: "Bill of Lading",
-      docVersion: 3,
+      docVersion: 2,
       docOrg: "COSCO Shipping"
     },
     {
@@ -38,7 +38,7 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 6,
       docType: "In Land Proof of Delivery (POD",
-      docVersion: 3,
+      docVersion: 2,
       docOrg: "Eddie Stobart"
     },
     
