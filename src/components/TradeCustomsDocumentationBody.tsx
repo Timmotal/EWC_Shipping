@@ -155,7 +155,7 @@ const TradeCustomsDocumentationBody = () => {
       />
       ))}
 
-              <ConsignementFile
+              {/* <ConsignementFile
                 label="Customs Transit Document (T1)"
                 iconX="/downloadIcon.svg"
                 prop="1.1"
@@ -163,7 +163,7 @@ const TradeCustomsDocumentationBody = () => {
                 label1="TZT Forwarding "
                 iconX1="/downloadIcon.svg"
                 iconX2="/downloadIcon.svg"
-              />
+              /> */}
               {/* <ConsignementFile
                 label="Commercial Invoice"
                 iconX="/downloadIcon.svg"

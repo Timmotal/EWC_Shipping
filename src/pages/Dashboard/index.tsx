@@ -1,4 +1,3 @@
-import React from 'react'
 import Sidebar from '../../components/Sidebar'
 import WelcomeUserBanner from '../../components/WelcomeUserBanner'
 import ConsignmentShippingSearch from '../../components/ConsignmentShippingSearch'

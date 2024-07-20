@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../../../components/Sidebar'
-import WelcomeUserBanner from '../../../components/WelcomeUserBanner'
-import RecentlyAddedConsigments from '../../../components/RecentlyAddedConsigments'
+// import WelcomeUserBanner from '../../../components/WelcomeUserBanner'
+// import RecentlyAddedConsigments from '../../../components/RecentlyAddedConsigments'
 import ConsignmentSearchHeader from '../../../components/ConsignmentSearchHeader'
 import ConsignmentsSearchResults from '../../../components/ConsignmentsSearchResults'
 // import {compassRose} from "../../assets/compasse-rose.svg"

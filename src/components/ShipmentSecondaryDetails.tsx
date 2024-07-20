@@ -1,5 +1,3 @@
-import React from 'react'
-
 // const Pin = ({ pin: {postedBy, image, _id, destination, save }}) => {
 const ShipmentSecondaryDetails = ({id, role, createdBy, route, departureDate}) => {
 

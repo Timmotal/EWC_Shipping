@@ -142,7 +142,7 @@ const TradeCustomsDocumentationDownloadPage = () => {
                 </button>
               </div> */}
 
-{tradeCustomsFiles.map((tradeCustomsFile) => (
+{tradeCustomsFiles.map((tradeCustomsFile) => (  
       <ConsignementFile
         key={tradeCustomsFile.id}
         id={tradeCustomsFile.id}
@@ -154,7 +154,7 @@ const TradeCustomsDocumentationDownloadPage = () => {
       />
       ))}
 
-              <ConsignementFile
+              {/* <ConsignementFile
                 label="Customs Transit Document (T1)"
                 iconX="/downloadIcon.svg"
                 prop="1.1"
@@ -162,7 +162,7 @@ const TradeCustomsDocumentationDownloadPage = () => {
                 label1="TZT Forwarding "
                 iconX1="/downloadIcon.svg"
                 iconX2="/downloadIcon.svg"
-              />
+              /> */}
               {/* <ConsignementFile
                 label="Commercial Invoice"
                 iconX="/downloadIcon.svg"

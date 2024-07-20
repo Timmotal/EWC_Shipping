@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
 import ShipmentSecondaryDetails from '../ShipmentSecondaryDetails'
 import ShipmentOriginFlag from '../ShipmentOriginFlag';
 import { NavLink } from 'react-router-dom';
+// import { useState } from 'react';
 
 // type Props = {}
 
@@ -23,11 +23,11 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
 ) => {
 
     
-        const [isOpen, setIsOpen] = useState(false); // State for open/closed state
+        // const [isOpen, setIsOpen] = useState(false); // State for open/closed state
       
-        const handleToggle = () => {
-          setIsOpen(!isOpen); // Toggle open/closed state on click
-        };
+        // const handleToggle = () => {
+        //   setIsOpen(!isOpen); // Toggle open/closed state on click
+        // };
 
     // key={shipment.id}
     //     id={shipment.id}

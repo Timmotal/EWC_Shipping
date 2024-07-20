@@ -1,5 +1,5 @@
-import React from 'react'
-import SignUpForm from '../../components/SignUp'
+// import React from 'react'
+// import SignUpForm from '../../components/SignUp'
 import LoginForm from '../Login'
 import { NavLink } from 'react-router-dom'
 

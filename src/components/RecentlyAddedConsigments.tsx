@@ -1,5 +1,4 @@
-import React from "react";
-import ShipmentOriginFlag from "./ShipmentOriginFlag";
+// import ShipmentOriginFlag from "./ShipmentOriginFlag";
 import ShipmentSecondaryDetails from "./ShipmentSecondaryDetails";
 import ShipmentPrimaryDetails from "./ShipmentPrimaryDetails";
 import { NavLink } from "react-router-dom";
@@ -113,7 +112,6 @@ const RecentlyAddedConsigments = () => {
 
         role={shipment.role} 
         createdBy={shipment.createdBy} 
-        route={shipment.route}
         departureDate={shipment.departureDate}
 
       />
@@ -124,7 +122,7 @@ const RecentlyAddedConsigments = () => {
           ATLANTIC 4321S
         </b>
         <div className="w-[890px] flex flex-row flex-wrap items-center justify-start gap-[16px] max-w-full">
-          <ShipmentOriginFlag />
+          // <ShipmentOriginFlag />
           <div className="flex-1 flex flex-col items-center justify-start py-0 px-1 box-border min-w-[105px]">
             <img
               className="self-stretch h-7 relative rounded-12xs max-w-full overflow-hidden shrink-0"
@@ -133,7 +131,7 @@ const RecentlyAddedConsigments = () => {
               src="/vector-2.svg"
             />
           </div>
-          <ShipmentOriginFlag />
+          // <ShipmentOriginFlag />
           <img
             className="h-[18.8px] w-[18.8px] relative rounded-[0.32px] object-contain"
             loading="lazy"

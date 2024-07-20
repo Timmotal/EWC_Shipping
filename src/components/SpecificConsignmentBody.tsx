@@ -1,5 +1,4 @@
-import React from "react";
-import ShipmentOriginFlag from "./ShipmentOriginFlag";
+// import ShipmentOriginFlag from "./ShipmentOriginFlag";
 import ConsignmentsFound_ShipmentPrimaryDetails from "./consigmentsFound/ConsignmentFound_ShipmentPrimaryDetails";
 import { NavLink } from "react-router-dom";
 // import ShipmentSecondaryDetails from "../ShipmentSecondaryDetails"
@@ -71,7 +70,7 @@ const SpecificConsignmentBody = () => {
 
         role={shipment.role} 
         createdBy={shipment.createdBy} 
-        route={shipment.route}
+        // route={shipment.route}
         departureDate={shipment.departureDate}
 
       />

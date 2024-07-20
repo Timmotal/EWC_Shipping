@@ -69,7 +69,6 @@ const SpecificShipmentsFullPageNoHeaderNav = () => {
 
         role={shipment.role} 
         createdBy={shipment.createdBy} 
-        route={shipment.route}
         departureDate={shipment.departureDate}
 
       />

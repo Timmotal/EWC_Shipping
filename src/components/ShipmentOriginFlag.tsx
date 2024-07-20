@@ -1,6 +1,6 @@
 // import React from 'react'
 
-const ShipmentOriginFlag = ({ country, city, countryFlag, transportType }) => {
+const ShipmentOriginFlag = ({ id, country, city, countryFlag, transportType }) => {
   // key={shipment.id}
   //       id={shipment.id}
   //       originCountry={shipment.origin.country.name}

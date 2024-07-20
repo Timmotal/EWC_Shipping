@@ -1,7 +1,7 @@
 
 
 
-const ConsignementFile= ({ id, docType, docVersion, docOrg }) => {
+const ConsignementFile= ({ docType, docVersion, docOrg }) => {
   return (
     <div
       className={`self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg  overflow-hidden flex flex-row items-center justify-between py-[0.375rem] pr-[3.187rem] pl-[0.5rem] gap-14 text-left text-[1rem] text-black border-[1px] border-solid `}
