@@ -18,7 +18,7 @@ const ShipmentSecondaryDetails = ({id, role, createdBy, route, departureDate}: S
   // departureDate={shipment.departureDate}
 
   return (
-    <div className='flex gap-2'>
+    <div className='flex flex-wrap gap-2'>
       <div className="bg-[#FCFCFD] min-w-44 rounded-lg box-border shrink-0 flex flex-row items-center justify-start py-3.5 px-2 gap-[8px] border-[1px] border-solid">
             <div className="relative  inline-block sm:min-w-[81px]">
               Your Role:

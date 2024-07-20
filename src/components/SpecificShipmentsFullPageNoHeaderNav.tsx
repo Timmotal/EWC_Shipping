@@ -26,7 +26,7 @@ const SpecificShipmentsFullPageNoHeaderNav = () => {
           },
         },
 
-        role: 'Importer',
+        role: 'Freight Forwarder',
         createdBy: 'MSC',
 
         departureDate: '9 October, 2024'

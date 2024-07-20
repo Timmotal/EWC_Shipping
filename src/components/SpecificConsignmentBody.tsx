@@ -25,7 +25,7 @@ const SpecificConsignmentBody = () => {
           },
         },
 
-        role: 'Importer',
+        role: 'Freight Forwarder',
         createdBy: 'MSC',
 
         departureDate: '9 October, 2024'
@@ -37,7 +37,7 @@ const SpecificConsignmentBody = () => {
 
   return (
     <div
-      className={`self-stretch rounded-lg flex flex-col items-start justify-start pb-7 px-8 pt-8 gap-[20px] max-w-full text-left text-xl text-black `}
+      className={`self-stretch bg-white rounded-lg flex flex-col items-start justify-start pb-7 px-8 pt-8 gap-[20px] max-w-full text-left text-xl text-black `}
     >
 
       {/* THIS IS A COMPONENT NON ITS OWN */}

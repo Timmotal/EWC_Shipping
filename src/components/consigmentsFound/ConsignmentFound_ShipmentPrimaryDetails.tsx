@@ -53,11 +53,11 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
     //     destinationCountryFlag={shipment.destination.country.flag}
   return (
     <NavLink to="/specificconsignmentpage">
-    <div className="self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full border-[1px] border-solid">
+    <div className="self-stretch rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full">
         {/* <b className="self-stretch relative leading-[28px] mq450:text-base mq450:leading-[22px]">
             {`${route} ${id}`}
         </b> */}
-        <div className=" flex flex-row flex-wrap bg-re items-center justify-start gap-[16px] max-w-full text-5xl text-darkslategray">
+        <div className=" flex flex-row flex-wrap items-center justify-start gap-[16px] max-w-full text-5xl text-darkslategray">
           <ShipmentOriginFlag
           // id={id}
             key={id}
@@ -92,7 +92,7 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
       /> */}
       </div>
       
-      <div className="bg-white-base-ffffff overflow-x-auto flex flex-row items-center justify-center gap-[8px] max-w-full text-lg text-darkslategray font-text-md-l-24-regular">
+      <div className="overflow-x-auto flex flex-col items-center justify-center gap-[8px] max-w-full text-lg">
 
       {/* {isOpen && ( // Conditionally render ShipmentSecondaryDetails */}
         <ShipmentSecondaryDetails

@@ -16,14 +16,6 @@ const ActiveConsignments = () => {
     <div className="w-full h-[1624px] relative  overflow-hidden ">
       <div className="absolute flex items-end justify-end bottom-0 right-0  z-[-40]">
     <img className="" src="BackgroundImg.svg" alt="East West Background Image" />
-    {/* width: 84.5rem;
-height: 84.51rem;
-top: 8.56rem;
-left: 7.44rem;
-gap: 0rem; 
-opacity: 0;  
-angle: -0deg;  */}
-
   </div>
     {/* <img
       className="absolute top-[calc(50%_-_330px)] left-[calc(50%_-_111px)] w-[1589.7px] h-[1625.7px] overflow-hidden"
