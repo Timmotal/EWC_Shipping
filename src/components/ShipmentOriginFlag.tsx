@@ -1,6 +1,14 @@
 // import React from 'react'
 
-const ShipmentOriginFlag = ({ country, city, countryFlag, transportType }) => {
+interface ShipmentOriginFlagProps {
+  country: string;
+  city: string;
+  countryFlag: string; // Adjust types as needed
+  transportType: string;
+}
+
+
+const ShipmentOriginFlag = ({ country, city, countryFlag, transportType }: ShipmentOriginFlagProps) => {
   // key={shipment.id}
   //       id={shipment.id}
   //       originCountry={shipment.origin.country.name}
