@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import NameEmailWrapper from "./NameEmailWrapper";
 
 
@@ -20,11 +21,11 @@ const SignUp = () => {
               src="/icon-stroke.svg"
             />
           </div>
-          <div className="absolute top-[0rem] left-[0rem] w-full flex flex-col items-start justify-start gap-[0.5rem] max-w-full h-full">
-            <b className="w-[31.438rem] relative tracking-[-0.02em] leading-[1.5rem] inline-block max-w-full mq450:text-[1.188rem] mq450:leading-[1.5rem] mq750:text-[1.625rem] mq750:leading-[2rem]">
+          <div className="absolute top-0 left-0 w-full flex flex-col items-start justify-start gap-[0.5rem] max-w-full h-full">
+            <b className="w-[31.438rem] relative tracking-[-0.02em]inline-block max-w-full ">
               Sign Up to East-West Company
             </b>
-            <div className="self-stretch relative text-[1rem] leading-[1.5rem] font-text-md-l-24-regular text-darkslategray">
+            <div className="self-stretch relative text-base leading-[1.5rem]">
               <p className="[margin-block-start:0] [margin-block-end:8px]">{`Sign Up to access your dashboard, `}</p>
               <p className="m-0">settings and shipments.</p>
             </div>
@@ -47,18 +48,18 @@ const SignUp = () => {
             propAlignSelf="stretch"
           />
           <div className="self-stretch flex flex-col items-start justify-start gap-[1rem] max-w-full">
-            <b className="self-stretch relative text-[1.5rem] leading-[2rem] font-h4-desktop-tablet-bold text-black text-left mq450:text-[1.188rem] mq450:leading-[1.625rem]">
+            <b className="self-stretch relative text-[1.5rem] text-black text-left ">
               Business phone
             </b>
             <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[0.5rem] max-w-full">
-              <div className="w-[5.75rem] rounded bg-white-base-ffffff box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-[0.375rem] px-[0.437rem] gap-[0.375rem] border-[1px] border-solid border-color-border-gray-bold-100">
+              <div className="w-24 rounded box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-[0.375rem] px-[0.437rem] gap-[0.375rem] border-[1px] border-solid">
                 <div className="flex flex-row items-center justify-start">
                   <div className="flex flex-col items-start justify-start">
                     <img
-                      className="w-[1.5rem] h-[1rem] relative rounded-sm overflow-hidden shrink-0 object-cover"
+                      className="w-6 h-4 relative rounded-sm overflow-hidden shrink-0 object-cover"
                       loading="lazy"
                       alt=""
-                      src="/flaggbukm--united-kingdom@2x.png"
+                      src="/FlagOfUK.png"
                     />
                   </div>
                 </div>
@@ -101,7 +102,11 @@ const SignUp = () => {
         </form>
         <div className="self-stretch relative text-[1rem] leading-[1.5rem] font-text-md-l-24-regular text-gray">
           <span>{`Already have an account? `}</span>
-          <span className="text-[#0354A6]">Sign In</span>
+          <span className="text-[#0354A6]">
+          <NavLink to="/loginform">
+          Sign in
+        </NavLink>
+          </span>
         </div>
       </div>
     </div>

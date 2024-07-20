@@ -3,13 +3,12 @@ import SignUpForm from '../../components/SignUp'
 import LoginForm from '../Login'
 import { NavLink } from 'react-router-dom'
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div className="w-full relative  overflow-hidden flex flex-col items-start justify-start  pt-9 px-10 md:px-20  gap-[9.487rem] leading-[normal] tracking-[normal] pb-[10rem] ">
-     
-     <NavLink to="/">
+       <NavLink to="/">
       <img
-        className="w-[6.119rem] h-[2rem] relative object-cover"
+        className="w-24 h-8 relative object-cover"
         loading="lazy"
         alt=""
         src="/EastWest _Logo.png"
@@ -27,10 +26,10 @@ opacity: 0;
 angle: -0deg;  */}
 
   </div>
-      <SignUpForm />
-      {/* <LoginForm /> */}
+      {/* <SignUpForm /> */}
+      <LoginForm />
     </div> 
   )
 }
 
-export default SignUp
+export default SignIn
