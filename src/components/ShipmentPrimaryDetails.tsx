@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import ShipmentOriginFlag from './ShipmentOriginFlag'
 import ShipmentSecondaryDetails from './ShipmentSecondaryDetails'
 
@@ -22,7 +22,7 @@ const ShipmentPrimaryDetails = (
 ) => {
 
     
-        const [isOpen, setIsOpen] = useState(false); // State for open/closed state
+        // const [isOpen, setIsOpen] = useState(false); // State for open/closed state
       
         // const handleToggle = () => {
         //   setIsOpen(!isOpen); // Toggle open/closed state on click

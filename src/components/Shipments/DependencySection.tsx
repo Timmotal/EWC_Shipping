@@ -123,7 +123,7 @@ const Dependency = () => {
 {dependencies.map((depedency) => (
       <DependencyFile
         key={depedency.id}
-        id={depedency.id}
+        // id={depedency.id}
         name={depedency.name}
         company={depedency.company}
         docType={depedency.docType}

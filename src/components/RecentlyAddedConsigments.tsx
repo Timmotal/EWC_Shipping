@@ -1,5 +1,5 @@
 // import ShipmentOriginFlag from "./ShipmentOriginFlag";
-import ShipmentSecondaryDetails from "./ShipmentSecondaryDetails";
+// import ShipmentSecondaryDetails from "./ShipmentSecondaryDetails";
 import ShipmentPrimaryDetails from "./ShipmentPrimaryDetails";
 import { NavLink } from "react-router-dom";
 

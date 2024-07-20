@@ -1,5 +1,5 @@
-import React from "react";
-import ShipmentOriginFlag from "./ShipmentOriginFlag";
+// import React from "react";
+// import ShipmentOriginFlag from "./ShipmentOriginFlag";
 import ConsignmentsFound_ShipmentPrimaryDetails from "./consigmentsFound/ConsignmentFound_ShipmentPrimaryDetails";
 import { NavLink } from "react-router-dom";
 // import ShipmentSecondaryDetails from "../ShipmentSecondaryDetails"
