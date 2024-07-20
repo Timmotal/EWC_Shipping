@@ -3,6 +3,7 @@
 // import ShipmentSecondaryDetails from "../ShipmentSecondaryDetails";
 import ConsignmentsFound_ShipmentPrimaryDetails from "./consigmentsFound/ConsignmentFound_ShipmentPrimaryDetails";
 import { NavLink } from "react-router-dom";
+import ShipmentPrimaryDetails from "./ShipmentPrimaryDetails";
 
 const ConsignmentsSearchResults = () => {
 
@@ -113,7 +114,8 @@ const ConsignmentsSearchResults = () => {
     >
       
       {shipments.map((shipment) => (
-      <ConsignmentsFound_ShipmentPrimaryDetails
+      // <ConsignmentsFound_ShipmentPrimaryDetails
+      <ShipmentPrimaryDetails
         key={shipment.id} 
         id={shipment.id}
         route={shipment.route}
