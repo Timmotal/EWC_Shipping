@@ -53,7 +53,7 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
     //     destinationCountryFlag={shipment.destination.country.flag}
   return (
     <NavLink to="/specificconsignmentpage">
-    <div className="self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full border-[1px] border-solid">
+    <div className="self-stretch rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full">
         {/* <b className="self-stretch relative leading-[28px] mq450:text-base mq450:leading-[22px]">
             {`${route} ${id}`}
         </b> */}
