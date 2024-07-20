@@ -20,7 +20,7 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 3,
       docType: "Commercial Invoice",
-      docVersion: 1.2,
+      docVersion: 3,
       docOrg: " Chem Corp"
     },
     {
