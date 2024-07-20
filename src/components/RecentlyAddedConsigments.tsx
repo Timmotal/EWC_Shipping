@@ -24,7 +24,7 @@ const RecentlyAddedConsigments = () => {
           },
         },
       // secondaryDetails: {
-        role: 'Importer',
+        role: 'Freight Forwarder',
         createdBy: 'MSC',
         // vehicleVoyage: 'PACIFIC 4321S',
         departureDate: '2024-10-09'
@@ -47,7 +47,7 @@ const RecentlyAddedConsigments = () => {
           }
         },
         // secondaryDetails: { // Assuming you want to include these properties
-          role: 'Importer',
+          role: 'Freight Forwarder',
           createdBy: 'MSC',
           // vehicleVoyage: 'ATLANTIC 4321S',
           departureDate: '2024-10-09'
@@ -70,7 +70,7 @@ const RecentlyAddedConsigments = () => {
     //     },
     //   // },
     //   // secondaryDetails: {
-    //     role: 'Importer',
+    //     role: 'Freight Forwarder',
     //     createdBy: 'MSC',
     //     vehicleVoyage: 'ATLANTIC 4321S',
     //     departureDate: '2024-10-09'

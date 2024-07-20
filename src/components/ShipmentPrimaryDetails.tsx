@@ -1,4 +1,5 @@
 // import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import ShipmentOriginFlag from './ShipmentOriginFlag'
 import ShipmentSecondaryDetails from './ShipmentSecondaryDetails'
 
@@ -51,7 +52,8 @@ const ShipmentPrimaryDetails = (
     //     destinationCountry={shipment.destination.country.city}
     //     destinationCountryFlag={shipment.destination.country.flag}
   return (
-    <div className="self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full ">
+    <NavLink to="/specificconsignmentpage">
+    <div className="self-stretch shadow-[0px_1px_5.7px_rgba(16,_24,_40,_0.08)] rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full border-[1px] border-solid">
         <b className="self-stretch relative">
             {`${route} ${id}`}
         </b>
@@ -89,7 +91,7 @@ const ShipmentPrimaryDetails = (
       /> */}
       </div>
       
-      <div className="bg-white-base-ffffff overflow-x-auto flex flex-row items-center justify-center gap-[8px] max-w-full text-lg text-darkslategray font-text-md-l-24-regular">
+      <div className=" overflow-x-auto flex flex-row items-center justify-center gap-[8px] max-w-full text-lg">
 
       {/* {isOpen && ( // Conditionally render ShipmentSecondaryDetails */}
         <ShipmentSecondaryDetails
@@ -123,6 +125,7 @@ const ShipmentPrimaryDetails = (
     
         </div> */}
       </div>
+      </NavLink>
   )
 }
 
