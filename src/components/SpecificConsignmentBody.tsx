@@ -26,7 +26,7 @@ const SpecificConsignmentBody = () => {
         },
 
         role: 'Freight Forwarder',
-        createdBy: 'MSC',
+        createdBy: 'TZT Forwarding',
 
         departureDate: '9 October, 2024'
       },
