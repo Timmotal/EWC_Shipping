@@ -8,13 +8,13 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 1,
       docType: "Packing List",
-      docVersion: 1.1,
+      docVersion: 3,
       docOrg: " Chem Corp"
     },
     {
       id: 2,
       docType: "Customs Transit Document (T1)",
-      docVersion: 1.1,
+      docVersion: 3,
       docOrg: "TZT Forwarding "
     },
     {
@@ -26,7 +26,7 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 4,
       docType: "Bill of Lading",
-      docVersion: 1.1,
+      docVersion: 3,
       docOrg: "COSCO Shipping"
     },
     {
@@ -38,7 +38,7 @@ const TradeCustomsDocumentationBody = () => {
     {
       id: 6,
       docType: "In Land Proof of Delivery (POD",
-      docVersion: 1.1,
+      docVersion: 3,
       docOrg: "Eddie Stobart"
     },
     
@@ -97,7 +97,7 @@ const TradeCustomsDocumentationBody = () => {
                   
                 </div>
                 <div className="w-[2.556rem] relative leading-[1.25rem] flex items-center shrink-0">
-                  1.1
+                  3
                 </div>
                 <div className="w-44 relative flex items-center shrink-0">
                   <span className="w-full">
@@ -158,7 +158,7 @@ const TradeCustomsDocumentationBody = () => {
               {/* <ConsignementFile
                 label="Customs Transit Document (T1)"
                 iconX="/downloadIcon.svg"
-                prop="1.1"
+                prop="3"
                 flagKRKoreaSouth="/flagkr--korea-south-1@2x.png"
                 label1="TZT Forwarding "
                 iconX1="/downloadIcon.svg"
