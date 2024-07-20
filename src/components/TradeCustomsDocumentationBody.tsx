@@ -146,7 +146,7 @@ const TradeCustomsDocumentationBody = () => {
 {tradeCustomsFiles.map((tradeCustomsFile) => (
       <ConsignementFile
         key={tradeCustomsFile.id}
-        id={tradeCustomsFile.id}
+        // id={tradeCustomsFile.id}
         docType={tradeCustomsFile.docType}
         docVersion={tradeCustomsFile.docVersion}
         docOrg={tradeCustomsFile.docOrg}

@@ -46,7 +46,7 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
         </b> */}
         <div className=" flex flex-row flex-wrap bg-re items-center justify-start gap-[16px] max-w-full text-5xl text-darkslategray">
           <ShipmentOriginFlag
-          id={id}
+          // id={id}
             key={id}
             transportType={"Origin"}
             country={originCountry}
@@ -62,7 +62,7 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
             />
           </div>
           <ShipmentOriginFlag 
-          id={id}
+          // id={id}
           key={id}
           transportType={"Destination"}
           city={destinationCity}
