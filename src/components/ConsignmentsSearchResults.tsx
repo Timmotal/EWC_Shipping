@@ -25,7 +25,7 @@ const ConsignmentsSearchResults = () => {
           },
         },
 
-        role: 'Importer',
+        role: 'Freight Forwarder',
         createdBy: 'MSC',
 
         departureDate: '9 October, 2024'
@@ -48,7 +48,7 @@ const ConsignmentsSearchResults = () => {
           }
         },
 
-          role: 'Importer',
+          role: 'Freight Forwarder',
           createdBy: 'MSC',
 
           departureDate: '9 March, 2023'
@@ -72,7 +72,7 @@ const ConsignmentsSearchResults = () => {
             },
           },
   
-          role: 'Importer',
+          role: 'Freight Forwarder',
           createdBy: 'MSC',
   
           departureDate: '10 April, 2023'
@@ -95,7 +95,7 @@ const ConsignmentsSearchResults = () => {
               },
             },
     
-            role: 'Importer',
+            role: 'Freight Forwarder',
             createdBy: 'MSC',
     
             departureDate: '11 September, 2022'
@@ -114,7 +114,7 @@ const ConsignmentsSearchResults = () => {
       
       {shipments.map((shipment) => (
       <ConsignmentsFound_ShipmentPrimaryDetails
-        key={shipment.id}
+        key={shipment.id} 
         id={shipment.id}
         route={shipment.route}
 
