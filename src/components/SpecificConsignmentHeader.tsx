@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 const SpecificConsignmentHeader = () => {
   return (
@@ -16,10 +17,11 @@ const SpecificConsignmentHeader = () => {
             />
           </div>
 
+          <NavLink to="/activeconsignments">
           <a className="[text-decoration:none] text-[#0354A6] relative text-base  font-medium text-left ">
             Back to all consignment
           </a>
-
+          </NavLink>
          
         </div>
       </div>

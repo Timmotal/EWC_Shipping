@@ -1,5 +1,7 @@
 // import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 const ShipmentHeaderNavigation = () => {
   return (
     <div 
@@ -17,11 +19,12 @@ const ShipmentHeaderNavigation = () => {
           />
         </div>
 
+<NavLink to="/">
         <a className="[text-decoration:none] text-[#0354A6] relative text-base  font-medium text-left ">
         Back to all shipments
         {/* Back to consignment EXPRESS 9832N */}
         </a>
-
+        </NavLink>
        
       </div>
     </div>

@@ -1,5 +1,7 @@
 // import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 const ConsignmentSearchHeader = () => {
   return (
     <div
@@ -17,10 +19,11 @@ const ConsignmentSearchHeader = () => {
             />
           </div>
 
+          <NavLink to="/">
           <a className="[text-decoration:none] text-[#0354A6] relative text-base  font-medium text-left ">
             Back to Dashboard
           </a>
-
+          </NavLink>
          
         </div>
       </div>
