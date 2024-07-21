@@ -51,11 +51,7 @@ const TradeCustomDocumentationPage = () => {
         <TradeCustomsDocumentationDownloadPage /> */}
         {/* <Dependency /> */}
         </div>
-        {/* <div className="self-stretch flex flex-row items-start justify-start max-w-full text-center text-base py-5">
-        <div className="flex-1 relative text-lg inline-block max-w-full text-[#1465B4]">
-        Back to all consignments
-        </div>
-      </div> */}
+ 
       </div>
     </div>
   </div>
