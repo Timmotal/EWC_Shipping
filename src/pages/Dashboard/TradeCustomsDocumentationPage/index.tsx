@@ -45,11 +45,7 @@ const TradeCustomDocumentationPage = () => {
          <TradeCustomsDocsHeaderNav />
         <TradeCustomsDocumentationBody />
 
-            {/* UNCOMMENT THE CustomsDoc Component with it's Header to render this */}
-            {/* <DocNavigation />
-            
-        <TradeCustomsDocumentationDownloadPage /> */}
-        {/* <Dependency /> */}
+  
         </div>
  
       </div>
