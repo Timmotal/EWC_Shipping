@@ -1,6 +1,5 @@
 import ShipmentSecondaryDetails from '../ShipmentSecondaryDetails'
 import ShipmentOriginFlag from '../ShipmentOriginFlag';
-import { NavLink } from 'react-router-dom';
 // import { useState } from 'react';
 
 // type Props = {}
@@ -52,7 +51,6 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
     //     destinationCountry={shipment.destination.country.city}
     //     destinationCountryFlag={shipment.destination.country.flag}
   return (
-    <NavLink to="/specificconsignmentpage">
     <div className="self-stretch rounded-lg box-border overflow-hidden flex flex-col items-start justify-center py-1.5 pr-0 pl-4 gap-[16px] max-w-full">
         {/* <b className="self-stretch relative leading-[28px] mq450:text-base mq450:leading-[22px]">
             {`${route} ${id}`}
@@ -126,7 +124,6 @@ const ConsignmentsFound_ShipmentPrimaryDetails = (
     
         </div> */}
       </div>
-      </NavLink>
   )
 }
 
