@@ -152,24 +152,6 @@ const SideBar = () => {
           <div className="self-stretch relative leading-[24px]">Account</div>
         </div>
       </div>
-
-      {/* <NavLink
-          to="/shipments"
-          end
-          className={({ isActive }) =>
-            isActive || activeLink === "/"
-              ? "bg-[#ECF4FC] self-stretch flex flex-row items-center justify-start py-2 pl-12  relative gap-3 text-base"
-              : ""
-          }
-          onClick={() => handleSetActiveLink("/")}
-        >
-          <div className="flex flex-row items-center justify-start">
-            <img className="h-5 w-5 relative" alt="" src="/iconhouse.svg" />
-            <div className="flex-1 flex flex-col items-start justify-center py-1.5 pl-[.75rem] box-border min-h-8">
-              Dashboard
-            </div>
-          </div>
-        </NavLink> */}
        <NavLink
           to="/signup"
           end
@@ -199,82 +181,4 @@ const SideBar = () => {
 export default SideBar
 
 
-// import { NavLink } from 'react-router-dom';
 
-// const Sidebar: React.FC = () => {
-//   const [activeLink, setActiveLink] = useState<string>('/');
-
-//   const handleSetActiveLink = (link: string) => {
-//     setActiveLink(link);
-//   };
-
-//   return (
-//     <div className="w-64 bg-gray-100 p-4">
-//       <ul className="space-y-4">
-//         <li>
-//           <NavLink
-//             to="/"
-//             end
-//             className={({ isActive }) => 
-//               `block p-2 ${isActive || activeLink === '/' ? 'bg-gray-300 rounded' : ''}`}
-//             onClick={() => handleSetActiveLink('/')}
-//           >
-//             Dashboard
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink
-//             to="notifications"
-//             className={({ isActive }) => 
-//               `block p-2 ${isActive || activeLink === 'notifications' ? 'bg-gray-300 rounded' : ''}`}
-//             onClick={() => handleSetActiveLink('notifications')}
-//           >
-//             Notifications
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink
-//             to="messages"
-//             className={({ isActive }) => 
-//               `block p-2 ${isActive || activeLink === 'messages' ? 'bg-gray-300 rounded' : ''}`}
-//             onClick={() => handleSetActiveLink('messages')}
-//           >
-//             Messages
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink
-//             to="shipments"
-//             className={({ isActive }) => 
-//               `block p-2 ${isActive || activeLink === 'shipments' ? 'bg-gray-300 rounded' : ''}`}
-//             onClick={() => handleSetActiveLink('shipments')}
-//           >
-//             Shipments
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink
-//             to="active-consignments"
-//             className={({ isActive }) => 
-//               `block p-2 ${isActive || activeLink === 'active-consignments' ? 'bg-gray-300 rounded' : ''}`}
-//             onClick={() => handleSetActiveLink('active-consignments')}
-//           >
-//             Active Consignments
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink
-//             to="account"
-//             className={({ isActive }) => 
-//               `block p-2 ${isActive || activeLink === 'account' ? 'bg-gray-300 rounded' : ''}`}
-//             onClick={() => handleSetActiveLink('account')}
-//           >
-//             Account
-//           </NavLink>
-//         </li>
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Sidebar;

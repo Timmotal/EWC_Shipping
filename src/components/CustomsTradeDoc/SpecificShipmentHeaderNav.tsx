@@ -1,4 +1,3 @@
-// import React from "react";
 
 const SpecificShipmentHeaderNav = () => {
   return (
@@ -19,7 +18,6 @@ const SpecificShipmentHeaderNav = () => {
 
         <a className="[text-decoration:none] text-[#0354A6] relative text-base  font-medium text-left ">
         Back to Shipment PACIFIC 4321S
-        {/* Back to consignment EXPRESS 9832N */}
         </a>
 
        

@@ -1,4 +1,3 @@
-//  import SideBar from "../SidebarMenu.tsx";
 
 import DependencyFile from "./DependencyFile";
 
@@ -59,16 +58,7 @@ const Dependency = () => {
   return (
     <>
     <div className="self-stretch rounded-lg flex flex-col items-start justify-start pt-8 px-8 gap-[20px] max-w-full">
-    {/* <div className="self-stretch flex flex-col items-start justify-start max-w-full text-[2rem] ">
-              <div className="flex flex-col items-start justify-center max-w-full">
-                <h1 className="m-0 relative text-inherit tracking-[-0.02em] font-bold ">
-                  Trade and Customs Documentation
-                </h1>
-                <div className="relative text-[1rem] leading-6 font-text-md-l-24-regular text-darkslategray">
-                  Find all your documentation in one place
-                </div>
-              </div>
-            </div> */}
+
              <div className="self-stretch flex flex-col items-start justify-start text-[2rem]">
               <div className="flex flex-col items-start justify-center">
                 <b className="relative tracking-[-0.02em] ">
@@ -83,24 +73,7 @@ const Dependency = () => {
 
             <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] max-w-full">
               <div className="self-stretch rounded-lg bg-[#F2F4F7] box-border overflow-hidden flex flex-row items-center justify-start py-[0.375rem] px-[0.437rem] max-w-full  border-[1px] border-solid">
-                {/* <div className="flex-1 flex flex-row flex-wrap items-start justify-start py-[0rem] pr-[6.75rem] pl-[0rem] box-border max-w-full [row-gap:20px]">
-                  <div className="w-[13.175rem] relative leading-6 inline-block shrink-0">
-                  Name
-                  </div>
-                  <div className="w-[7.506rem] relative leading-6 inline-block shrink-0">
-                    Company
-                    </div>
-                  <div className="flex-1 relative leading-6 inline-block min-w-[5rem]">
-                  Type 
-                   </div>
-                  <div className="w-[11.85rem] relative leading-6 inline-block shrink-0">
-                  Email 
-                  </div>
-                  <div className="relative leading-6 inline-block min-w-[3.063rem]">
-                  Phone Number
-                  </div>
-                </div>
-              </div> */}
+ 
 
 <div className="flex-1 flex flex-row items-start justify-start">
                   <div className="w-[15.313rem] w- relative  inline-block shrink-0">
@@ -123,7 +96,6 @@ const Dependency = () => {
 {dependencies.map((depedency) => (
       <DependencyFile
         key={depedency.id}
-        // id={depedency.id}
         name={depedency.name}
         company={depedency.company}
         docType={depedency.docType}

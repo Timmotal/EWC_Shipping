@@ -1,6 +1,3 @@
-
-
-// Define an interface for the props
 interface ConsignementFileProps {
   docType: string;
   docVersion: number;

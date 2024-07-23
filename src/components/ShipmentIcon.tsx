@@ -1,9 +1,7 @@
-// import React from 'react'
 
 const ShipmentIcon = () => {
   return (<div
     className={`w-[182px] flex flex-col items-start justify-start gap-[8px] text-left text-5xl text-white-base-ffffff font-h4-desktop-tablet-regular `}
-    // style={navigationStyle}
   >
     <div className="self-stretch flex flex-row items-start justify-start gap-[8px]">
       <img

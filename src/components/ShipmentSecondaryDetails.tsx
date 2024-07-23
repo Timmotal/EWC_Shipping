@@ -1,4 +1,3 @@
-// const Pin = ({ pin: {postedBy, image, _id, destination, save }}) => {
 interface ShipmentSecondaryDetailsProps {
   id: string,
   role : string;
@@ -11,11 +10,7 @@ interface ShipmentSecondaryDetailsProps {
 const ShipmentSecondaryDetails = ({id, role, createdBy, route, departureDate}: ShipmentSecondaryDetailsProps) => {
 
 
-  // key={shipment.id} 
-  // role={shipment.role} 
-  // createdBy={shipment.createdBy} 
-  // route={shipment.route}
-  // departureDate={shipment.departureDate}
+
 
   return (
     <div className='flex flex-wrap gap-2'>
@@ -64,19 +59,7 @@ const ShipmentSecondaryDetails = ({id, role, createdBy, route, departureDate}: S
             </div>
           </div>
     </div>
-  //   <div
-  //   className={`rounded-lg bg-gray-50-fcfcfd flex flex-row items-center justify-start py-3.5 px-2 gap-[8px] text-left text-lg text-darkslategray font-text-md-l-24-regular border-[1px] border-solid border-gray-200-e4e7ec `}
-  // >
-  //   <div className="relative leading-[24px] inline-block min-w-[100px]">
-  //     createdBy
-  //   </div>
-  //   <div className="w-12 rounded bg-color-border-gray-subtle-300 box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-0.5 px-[7px] relative gap-[6px] text-sm text-color-text-gray-subtle-100 border-[1px] border-solid border-gray-200-e4e7ec">
-      
-  //     <div className="relative leading-[20px] font-medium inline-block min-w-[32px]">
-  //       diff
-  //     </div>
-  //   </div>
-  // </div>
+
   )
 }
 

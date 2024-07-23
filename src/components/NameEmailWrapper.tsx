@@ -4,7 +4,6 @@ export type FirstNameWrapperType = {
   className?: string;
   firstName?: string;
 
-  /** Style props */
   propFlex?: CSSProperties["flex"];
   propMinWidth?: CSSProperties["minWidth"];
   propAlignSelf?: CSSProperties["alignSelf"];

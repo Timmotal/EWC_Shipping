@@ -1,4 +1,3 @@
-// import React from 'react'
 
 interface ShipmentOriginFlagProps {
   country: string;
@@ -9,15 +8,7 @@ interface ShipmentOriginFlagProps {
 
 
 const ShipmentOriginFlag = ({ country, city, countryFlag, transportType }: ShipmentOriginFlagProps) => {
-  // key={shipment.id}
-  //       id={shipment.id}
-  //       originCountry={shipment.origin.country.name}
-  //       originCity={shipment.origin.country.city}
-  //       originCityFlag={shipment.origin.country.flag}
 
-  //       destinationCity={shipment.destination.country.name}
-  //       destinationCountry={shipment.destination.country.city}
-  //       destinationCountryFlag={shipment.destination.country.flag}
   return (
     <div
     className={`rounded-lg flex flex-row items-center justify-start py-3.5 pr-[19px] pl-[15px] gap-[16px] bg-[#FCFCFD] border-[1px] border-solid`}

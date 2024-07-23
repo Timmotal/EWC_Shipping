@@ -10,9 +10,9 @@ const WelcomeUserBanner = () => {
 
   return (
     <div
-    className={`self-stretch rounded-lg bg-black flex flex-row items-center justify-between py-4 px-8 box-border max-w-full gap-[20px] text-left mq900:flex-wrap `}
+    className={`self-stretch rounded-lg bg-black flex flex-row items-center justify-between py-4 px-8 box-border max-w-full gap-5 text-left `}
   >
-    <div className="flex flex-row items-center justify-center gap-[16px] max-w-full mq450:flex-wrap">
+    <div className="flex flex-row items-center justify-center gap-4 max-w-full ">
       <img
         className="h-8 w-8 relative"
         loading="lazy"
@@ -24,7 +24,7 @@ const WelcomeUserBanner = () => {
       </h1>
     </div>
 
-    <div className="w-[445px] flex flex-row items-center justify-center gap-[32px] max-w-full text-5xl">
+    <div className="w-[445px] flex flex-row items-center justify-center gap-8 max-w-full text-5xl">
       <div>
         <div className="flex gap-2">
         <img src="/Boat.svg"  />
@@ -34,7 +34,7 @@ const WelcomeUserBanner = () => {
       </div>
 
         <img
-          className="self-stretch bg-[#FFFFFF] w-px relative max-h-full min-h-[68px]"
+          className="self-stretch bg-white w-px relative max-h-full min-h-16"
           loading="lazy"
           alt=""
           src="/HeaderSeperator.svg"
