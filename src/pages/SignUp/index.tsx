@@ -1,5 +1,4 @@
-import SignUpForm from '../../components/SignUp'
-// import LoginForm from '../Login'
+import SignUpForm from '../../components/SignUpForm.tsx'
 import { NavLink } from 'react-router-dom'
 
 const SignUp = () => {
@@ -17,17 +16,9 @@ const SignUp = () => {
 
 <div className="absolute flex items-end justify-end bottom-0 right-0  z-[-40]">
     <img className="" src="BackgroundImg.svg" alt="East West Background Image" />
-    {/* width: 84.5rem;
-height: 84.51rem;
-top: 8.56rem;
-left: 7.44rem;
-gap: 0rem; 
-opacity: 0;  
-angle: -0deg;  */}
 
   </div>
       <SignUpForm />
-      {/* <LoginForm /> */}
     </div> 
   )
 }

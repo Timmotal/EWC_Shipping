@@ -1,6 +1,7 @@
 // import ShipmentOriginFlag from "./ShipmentOriginFlag";
 import ConsignmentsFound_ShipmentPrimaryDetails from "./consigmentsFound/ConsignmentFound_ShipmentPrimaryDetails";
 import { NavLink } from "react-router-dom";
+import FooterTextNav from "./FooterTextNav";
 // import ShipmentSecondaryDetails from "../ShipmentSecondaryDetails"
 // import ConsignmentsFound_ShipmentPrimaryDetails from"./.ConsignmentFound_ShipmentPrimaryDetails";
 
@@ -297,12 +298,10 @@ const SpecificConsignmentBody = () => {
                 </div>
               </div>
       
-      
-      {/* <div className="self-stretch flex flex-row items-start justify-start max-w-full text-center text-base">
-        <div className="flex-1 relative text-lg inline-block max-w-full text-[#1465B4]">
-        Back to all consignements
-        </div>
-      </div> */}
+      <FooterTextNav
+        pageLinkURL={"/activeconsigments"}
+        pageLinkText={"Back to all consignments"} 
+      />
     </div>
   );
 };
